@@ -1,6 +1,6 @@
 # HashCheck Shell Extension by Kai Liu
 
-HashCheck Shell Extension is a Microsoft Windows extenstion for the Windows File Explorer.
+HashCheck Shell Extension is a Microsoft Windows extension for the Windows File Explorer.
 
 It offers two options:
 
