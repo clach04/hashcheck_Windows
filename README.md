@@ -19,4 +19,9 @@ BSD-style license, see license.txt.
 
 TODO Doc Windows 11 right-click menu notes (and restore previous behavior).
 
-TODO Doc alternatives (e.g. with additional checksum support)
+# Alternatives
+
+For example, with additional checksum support.
+
+  * https://github.com/gurnec/HashCheck
+  * ?
