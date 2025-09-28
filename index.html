@@ -1,0 +1,208 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" dir="ltr">
+<head>
+	<title>HashCheck Shell Extension</title>
+
+	<link rel="alternate" href="/announcements" type="application/atom+xml" title="code.kliu.org Announcements" />
+	<link rel="icon" href="/favicon.png" type="image/png" />
+	<link rel="stylesheet" href="/.layout/main-dark.css" type="text/css" />
+
+	<!--[if lt IE 8]>
+	<link rel="stylesheet" href="/.layout/msie.css" type="text/css" />
+	<![endif]-->
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="Copyright" content="Copyright (C) 1998-2011 Kai Liu. All rights reserved." />
+</head>
+<body>
+
+<div id="menubar">
+	<ul class="lowercase">
+		<li><a href="/" title="Home">Home</a></li>
+		<li><a href="/cmdopen/" title="ContextConsole Shell Extension">ContextConsole</a><ul
+			><li><a href="/cmdopen/" title="Main Page">Main Page</a></li
+			><li><a href="/cmdopen/faq.html" title="Frequently Asked Questions">FAQ</a></li
+			><li><a href="/cmdopen/changelog.html" title="Changelog">Changelog</a></li
+			></ul></li>
+		<li><a href="/hashcheck/" title="HashCheck Shell Extension">HashCheck</a><ul
+			><li><a href="/hashcheck/" title="Main Page">Main Page</a></li
+			><li><a href="/hashcheck/faq.html" title="Frequently Asked Questions">FAQ</a></li
+			><li><a href="/hashcheck/screenshots/" title="Screenshots">Screenshots</a></li
+			><li><a href="/hashcheck/changelog.html" title="Changelog">Changelog</a></li
+			></ul></li>
+		<li><a href="/noredirect/" title="NoRedirect (Firefox Extension)">NoRedirect</a><ul
+			><li><a href="/noredirect/" title="Main Page">Main Page</a></li
+			><li><a href="https://addons.mozilla.org/addon/11787" title="NoRedirect @ addons.mozilla.org">addons.mozilla.org</a></li
+			><li><a href="http://forums.mozillazine.org/viewtopic.php?t=1230675" title="MozillaZine Forum Thread">MozillaZine Thread</a></li
+			><li><a href="/noredirect/changelog.html" title="Changelog">Changelog</a></li
+			></ul></li>
+		<li><a href="/quickdrag/" title="QuickDrag (Firefox Extension)">QuickDrag</a><ul
+			><li><a href="/quickdrag/" title="Main Page">Main Page</a></li
+			><li><a href="https://addons.mozilla.org/addon/6912" title="QuickDrag @ addons.mozilla.org">addons.mozilla.org</a></li
+			><li><a href="/quickdrag/faq.html" title="Frequently Asked Questions">FAQ</a></li
+			><li><a href="http://forums.mozillazine.org/viewtopic.php?t=644971" title="MozillaZine Forum Thread">MozillaZine Thread</a></li
+			><li><a href="/quickdrag/changelog.html" title="Changelog">Changelog</a></li
+			></ul></li>
+		<li><a href="/urlflipper/" title="URL Flipper (Firefox Extension)">URL<span class="hidden">&nbsp;</span>Flipper</a><ul
+			><li><a href="/urlflipper/" title="Main Page">Main Page</a></li
+			><li><a href="https://addons.mozilla.org/addon/3572" title="URL Flipper @ addons.mozilla.org">addons.mozilla.org</a></li
+			><li><a href="/urlflipper/usage.html" title="Usage Guide">Usage Guide</a></li
+			><li><a href="http://forums.mozillazine.org/viewtopic.php?t=669335" title="MozillaZine Forum Thread">MozillaZine Thread</a></li
+			><li><a href="/urlflipper/changelog.html" title="Changelog">Changelog</a></li
+			></ul></li>
+		<li><a href="/misc/" title="Miscellaneous Code">Misc</a><ul
+			><li><a href="/misc/notepad2/" title="Notepad2 Modifications">Notepad2 Modifications</a></li
+			><li><a href="/misc/addpath/" title="addpath">addpath</a></li
+			><li><a href="/misc/elevate/" title="elevate">elevate</a></li
+			><li><a href="/misc/fixiepng/" title="fixiepng">fixiepng</a></li
+			><li><a href="/misc/fontreg/" title="FontReg (Windows Font Registration Utility)">fontreg</a></li
+			><li><a href="/misc/hashutils/" title="hashutils">hashutils</a></li
+			><li><a href="/misc/hidecon/" title="hidecon">hidecon</a></li
+			><li><a href="/misc/hideexec/" title="hideexec">hideexec</a></li
+			><li><a href="/misc/inlinedisposition/" title="InlineDisposition (Firefox Extension)">inlinedisposition</a></li
+			><li><a href="/misc/pendmove/" title="pendmove">pendmove</a></li
+			><li><a href="/misc/resetwmi/" title="resetwmi">resetwmi</a></li
+			><li><a href="/misc/resizefile/" title="vcopy">resizefile</a></li
+			><li><a href="/misc/runinf/" title="runinf">runinf</a></li
+			><li><a href="/misc/stripshortname/" title="runinf">stripshortname</a></li
+			><li><a href="/misc/tabsubmit/" title="TabSubmit (Firefox Extension)">tabsubmit</a></li
+			><li><a href="/misc/timeclone/" title="timeclone">timeclone</a></li
+			><li><a href="/misc/vcopy/" title="vcopy">vcopy</a></li
+			><li><a href="/misc/vhdutils/" title="vcopy">vhdutils</a></li
+			><li><a href="/misc/winisoutils/" title="winisoutils">winisoutils</a></li
+			></ul></li>
+		<li><a title="Archives">Archives</a><ul
+			><li><a href="/classicfox/" title="ClassicFox (Firefox/Thunderbird Extension)">ClassicFox</a></li
+			><li><a href="/kblog/" title="kBlog (Blogging Platform)">kBlog</a></li
+			><li><a href="/kcomics/" title="kComics (Comics Aggregator)">kComics</a></li
+			><li><a title="kJournal (discontinued)">kJournal (discontinued)</a></li
+			><li><a title="kPerl (discontinued)">kPerl (discontinued)</a></li
+			></ul></li>
+		<li><a title="Feedback">Feedback</a><ul
+			><li><a href="/tracker/" title="Submit Suggestions and Bug Reports">Bugs and Suggestions</a></li
+			><li><a href="/cdn-cgi/l/email-protection#ff9493968abf9c909b9ad19493968ad1908d98" title="E-mail Me">E-mail<span class="hidden">&nbsp;Me</span></a></li
+			><li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=1533685" title="Support code.kliu.org" rel="nofollow">Donate</a></li
+			></ul></li>
+		<li class="menubar-item-right bold"><a href="http://www.kliu.org/about.html" title="About Me">About<span class="hidden">&nbsp;Me</span></a></li>
+	</ul>
+	<div class="clearance"></div>
+	<hr class="hidden" />
+</div>
+
+<div id="page">
+
+<h1 id="header">HashCheck Shell Extension</h1>
+<hr class="hidden" />
+
+<div id="body">
+
+	<div id="info-box">
+		<h3>HashCheck Shell Extension</h3>
+		<ul class="unbulleted">
+			<li><b>Current version:</b> <a href="changelog.html" class="silent">2.1.11</a></li>
+			<li><b>Released on:</b> <a href="changelog.html" class="silent">1 Jul 2009</a></li>
+			<li><b>Requirements:</b> Windows XP (or newer)</li>
+		</ul>
+		<div class="info-box-button"><a href="downloads/HashCheckInstall-latest.exe"><b>Download Installer</b> <i>(85 KiB)</i></a></div>
+		<div class="info-box-button"><a href="downloads/HashCheckSource-latest.7z"><b>Download Source Code</b> <i>(68 KiB)</i></a></div>
+	</div>
+	<hr class="hidden" />
+
+	<p class="notop">The HashCheck Shell Extension makes it easy for anyone to calculate and verify checksums and <a href="https://en.wikipedia.org/wiki/Cryptographic_hash_function">hashes</a> from Windows Explorer. In addition to integrating file checksumming functionality into Windows, HashCheck can also create and verify <a href="https://en.wikipedia.org/wiki/Simple_file_verification">SFV files</a> (and other forms of checksum files, such as .md5 files). It is fast and efficient, with a very light disk and memory footprint, and it is open-source.</p>
+	<p><img src="screenshots/HashProp3_Aero.png" alt="Screenshot: HashProp3_Aero.png" width="377" height="160" class="shadowed alpha" /></p>
+
+	<h2 class="fancy-header">Features</h2>
+
+	<dl class="content">
+		<dt>Checksum/hash verification</dt>
+		<dd>
+			<p>HashCheck can process and verify the checksums/hashes stored in checksum files&mdash;these are files with a .sfv, .md4, .md5, or .sha1 file extension. Just double-click on the checksum file, and HashCheck will check the actual checksums of the listed files against those specified in the checksum file.</p>
+			<p><a href="screenshots/HashVerify1_Classic.png"><img src="images/tn_HashVerify1_Classic.png" alt="Screenshot: HashVerify1_Classic.png" width="253" height="180" class="shadowed" /></a></p>
+		</dd>
+
+		<dt>Shell integration: checksums at your fingertips</dt>
+		<dd>
+			<p>HashCheck will add a &quot;Checksums&quot; tab to the shell's file properties dialog so that you could easily check the hash of a file (or even multiple files and directories) from Windows Explorer. You can also save the results to a checksum file.</p>
+			<p>
+				<a href="screenshots/HashProp1_Classic.png"><img src="images/tn_HashProp1_Classic.png" alt="Screenshot: HashProp1_Classic.png" width="132" height="180" class="shadowed" /></a>&nbsp;&nbsp;&nbsp;
+				<a href="screenshots/HashProp2_Aero.png"><img src="images/tn_HashProp2_Aero.png" alt="Screenshot: HashProp2_Aero.png" width="147" height="180" class="shadowed alpha" /></a>
+			</p>
+		</dd>
+
+		<dt>Create checksum files</dt>
+		<dd>
+			<p>If you want to create a checksum file but think that opening the file properties dialog, navigating to the &quot;Checksums&quot; tab and then clicking &quot;Save&quot; is too much trouble, HashCheck simplifies the task by adding an optional &quot;Create Checksum File&quot; command to the shell's context menu. Simply select the files and directories that you want to hash and create a checksum file for, right-click on them, and select &quot;Create Checksum File&quot;.</p>
+			<p><img src="screenshots/HashSave2_Aero.png" alt="Screenshot: HashSave2_Aero.png" width="256" height="128" class="shadowed" /></p>
+		</dd>
+
+		<dt>Lean and mean</dt>
+		<dd>
+			<p>The HashCheck Shell Extension has a very small memory and disk footprint (the 32-bit version consumes less than 100 KiB of disk space). It is also very fast and responsive; it can, for example, load and parse a SFV file with a million entries in just a fraction of a second.</p>
+		</dd>
+
+		<dt>Free and open-source</dt>
+		<dd>
+			<p>The HashCheck Shell Extension is open-source, licensed under a <a href="license.txt">BSD-style license</a>, so that anyone with some knowledge of C can easily build their own customized version of this shell extension.</p>
+		</dd>
+
+		<dt>Compatibility: international support and 64-bit-compatible</dt>
+		<dd>
+			<p>The user interface text has been translated into <a href="#translations">many languages</a>, so that it will blend in seamlessly with most systems. Additionally, this shell extension is natively Unicode and can thus support a wide range of file and directory names.</p>
+			<p>Both x86-32 and x86-64 systems are natively supported, so you can use this with the increasingly common 64-bit versions of Windows.</p>
+		</dd>
+	</dl>
+
+	<h2 id="translations" class="fancy-header">Translations</h2>
+
+	<dl class="content">
+		<dt>Supported languages</dt>
+		<dd>
+			<ul id="l10n-list" class="unbulleted">
+				<li>English</li>
+				<li>&#x4E2D;&#x6587; (&#x7B80;&#x4F53;) <i>(translator: &quot;yumeyao&quot;)</i></li>
+				<li>&#x4E2D;&#x6587; (&#x7E41;&#x9AD4;) <i>(translator: Jack Chang)</i></li>
+				<li>&#x10D;e&#x161;tina <i>(translator: V&#xE1;clav Vesel&#xFD;)</i></li>
+				<li>Deutsch <i>(translator: &quot;Rolf&quot;)</i></li>
+				<li>&#x395;&#x3BB;&#x3BB;&#x3B7;&#x3BD;&#x3B9;&#x3BA;&#x3AC; <i>(translator: &quot;XhmikosR&quot;)</i></li>
+				<li>espa&#xF1;ol <i>(translator: &quot;Phare&quot;)</i></li>
+				<li>fran&#xE7;ais <i>(translators: &quot;mooms&quot; and &quot;user_hidden&quot;)</i></li>
+				<li>italiano <i>(translator: &quot;Botta&quot;)</i></li>
+				<li>&#x65E5;&#x672C;&#x8A9E; <i>(translator: &quot;yumeyao&quot;)</i></li>
+				<li>&#xD55C;&#xAD6D;&#xC5B4; <i>(translator: JaeHyung Lee)</i></li>
+				<li>Nederlands <i>(translator: &quot;Edwin&quot;)</i></li>
+				<li>polski <i>(translator: &quot;RedWine&quot;)</i></li>
+				<li>Portugu&#xEA;s (Brasil) <i>(translator: &quot;0d14r3&quot;)</i></li>
+				<li>portugu&#xEA;s (Portugal) <i>(translator: &quot;LPCA&quot;)</i></li>
+				<li>rom&#xE2;n&#x103; <i>(translator: Oprea Nicolae, a.k.a. &quot;Jaff&quot;)</i></li>
+				<li>&#x440;&#x443;&#x441;&#x441;&#x43A;&#x438;&#x439; <i>(translator: Yurii Petrashko)</i></li>
+				<li>svenska <i>(translator: Stefan Friman)</i></li>
+				<li>T&#xFC;rk&#xE7;e <i>(translator: M. &#xD6;mer G&#xF6;lgeli)</i></li>
+				<li>&#x443;&#x43A;&#x440;&#x430;&#x457;&#x43D;&#x441;&#x44C;&#x43A;&#x430; <i>(translator: Yurii Petrashko)</i></li>
+			</ul>
+		</dd>
+
+		<dt>How you can help</dt>
+		<dd>
+			<p>If you would like to contribute a translation, please translate and submit <a href="translations.txt">this file</a>. If you would like to suggest a correction to an existing translation, please <a href="/tracker/">file a bug</a>.</p>
+		</dd>
+	</dl>
+
+	<hr class="hidden" />
+	<div class="more-info-links">
+		<span><b>More info:</b>
+			<a href="faq.html">FAQ</a> |
+			<a href="changelog.html">Changelog</a> |
+			<a href="screenshots/">Screenshots</a>
+		</span>
+	</div>
+
+</div>
+
+<hr class="hidden" />
+<address id="footer">Page last modified on 2009/07/02.</address>
+
+</div>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>
