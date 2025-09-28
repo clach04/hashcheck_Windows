@@ -23,5 +23,11 @@ TODO Doc Windows 11 right-click menu notes (and restore previous behavior).
 
 For example, with additional checksum support.
 
-  * https://github.com/gurnec/HashCheck
+  * https://github.com/idrassi/HashCheck
+      * NOTE larger binary
+      * https://github.com/gus33000/hashcheck arm64 port
+      * https://github.com/gurnec/HashCheck - old fork (but newer than this one) - NOTE larger binary
+      * NOTE both forks missing md4 support, so if you have old checksum files this could be problematic:
+          * https://github.com/idrassi/HashCheck/issues/13
+          * https://github.com/gurnec/HashCheck/issues/81
   * ?
