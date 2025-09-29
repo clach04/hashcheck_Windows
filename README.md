@@ -30,4 +30,8 @@ For example, with additional checksum support.
       * NOTE both forks missing md4 support, so if you have old checksum files this could be problematic:
           * https://github.com/idrassi/HashCheck/issues/13
           * https://github.com/gurnec/HashCheck/issues/81
+  * HashTab - lots of checksum options, integrates a new checksum pane into Windows file explorer properties. No generate checksum file support, no verification from explorer (need to bring Hash tab, then select verify file), not supported for commercial use
+  * Command line, cross platform
+      * md5deep / hashdeep
+      * HashIt
   * ?
